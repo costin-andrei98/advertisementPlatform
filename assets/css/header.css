@@ -1,0 +1,66 @@
+#header {
+  background: #65C4F7;
+  color: black;
+  border-bottom: 1px solid white;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+#header #container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#header #container #menu {
+  margin-left: 20px;
+}
+#header #container #menu i {
+  cursor: pointer;
+  font-size: 26px;
+  transition: 0.5s;
+  color: white;
+}
+#header #container #menu i:hover {
+  color: #336e8d;
+}
+#header #container #settings {
+  margin-right: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#header #container #settings #addNewAnnounce {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 7px 15px;
+  background: white;
+  color: #65C4F7;
+  transition: 0.5s;
+}
+#header #container #settings #addNewAnnounce:hover {
+  background: #336e8d;
+  color: white;
+}
+#header #container #settings #userMenu {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+#header #container #settings #userMenu:hover {
+  color: #336e8d;
+}/*# sourceMappingURL=header.css.map */
