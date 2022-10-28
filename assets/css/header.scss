@@ -3,16 +3,21 @@ $primary-color:white;
 $primary-color-hover:#336e8d;
 
 #header {
-    background: $section-color;
-    color: black;
-    border-bottom: 1px solid $primary-color;
-    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #141414;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    height: 75px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     align-content: center;
     flex-wrap: nowrap;
+    z-index: 10;
 
     #container {
         display: inline-flex;
